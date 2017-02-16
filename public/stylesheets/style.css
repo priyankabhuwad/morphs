@@ -651,6 +651,7 @@ nav ul li:hover a {
     margin-top: 20px;
     position: relative;
     overflow-y: auto;
+    max-height: 60vh;
 }
 
 .gallery-thumbnail-container,
@@ -725,14 +726,14 @@ nav ul li:hover a {
 .lightbox {
     float: left;
     width: 80%;
-    height: 80%;
+    height: 90%;
     background-color: rgb(151, 151, 151);
     padding: 10px;
     margin-bottom: 30px;
     position: fixed;
     z-index: 1000;
     border-radius: 5px;
-    top: 10%;
+    top: 5%;
     left: 10%;
     box-sizing: border-box;
 }
@@ -1003,4 +1004,8 @@ nav ul li:hover a {
     255,
     255,
     0);
+}
+.max-height{
+    max-height: 100%;
+    width:100%;
 }

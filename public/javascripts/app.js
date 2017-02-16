@@ -80,7 +80,7 @@
        if (sceneMappingFn) {
          var sceneObject = sceneMappingFn.call(this)
          if (sceneObject) {
-           sceneObject.addIndicators().addTo(controller)
+           sceneObject.addTo(controller)
          }
        }
      })
